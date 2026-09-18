@@ -1,0 +1,28 @@
+# Local Python/runtime and downloaded models
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runtime/
+models/
+ocr/
+inpainting/
+acceleration/
+*.gguf
+*.onnx
+*.safetensors
+
+# Local credentials, settings and screen captures
+.env
+.env.*
+!.env.example
+appearance.json
+*.log
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+.pytest_cache/
+.idea/
+.vscode/
